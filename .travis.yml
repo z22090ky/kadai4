@@ -1,0 +1,5 @@
+language: bash
+script:
+  - echo test is gcd script
+  - echo Travis CI test in .travis.yml
+  - ./kadai4-test.sh
