@@ -24,7 +24,7 @@ diff $tmp-result $tmp-anser || echo "error in test1-2" >> $tmp-error
 echo "teat2-1: 異常系(引数なし)"
 ./kadai4.sh > $tmp-result
 echo "Error!" > $tmp-anser
-diff $tmp-result $tmp-anserer || echo "error in test2-1" >> $tmp-error
+diff $tmp-result $tmp-anser || echo "error in test2-1" >> $tmp-error
 
 echo "teat2-2: 異常系(引数一つ)"
 ./kadai4.sh 21 > $tmp-result
