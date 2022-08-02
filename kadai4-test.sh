@@ -7,7 +7,9 @@ ERROR () {
     #echo "$1" >&2
     cat $tmp-error
     rm -f $tmp-*
-    exit 1
+#    exit 1
+exit 0
+
 }
 
 # テスト開始
